@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkAdjustment" id="adjustment1">
+    <property name="upper">100</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="stock">gtk-apply</property>
+  </object>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="stock">gtk-cancel</property>
+  </object>
+  <object class="GtkWindow" id="card_wind">
+    <property name="width-request">500</property>
+    <property name="height-request">650</property>
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="resizable">False</property>
+    <child>
+      <object class="GtkFixed" id="MAIN_FIXED">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkStack" id="stack1">
+            <property name="width-request">800</property>
+            <property name="height-request">600</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="margin-right">10</property>
+            <property name="margin-bottom">14</property>
+            <property name="transition-type">crossfade</property>
+            <child>
+              <object class="GtkFixed" id="Tab1">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <child>
+                  <object class="GtkButton" id="yes_btn">
+                    <property name="label" translatable="yes">ДА</property>
+                    <property name="width-request">300</property>
+                    <property name="height-request">100</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="image">image1</property>
+                    <property name="always-show-image">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">95</property>
+                    <property name="y">600</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="no_btn">
+                    <property name="label" translatable="yes">НЕТ</property>
+                    <property name="width-request">300</property>
+                    <property name="height-request">100</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="image">image2</property>
+                    <property name="always-show-image">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">441</property>
+                    <property name="y">600</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkFrame" id="frame_card">
+                    <property name="name">frame_card</property>
+                    <property name="width-request">700</property>
+                    <property name="height-request">500</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label-xalign">0</property>
+                    <property name="label-yalign">0</property>
+                    <property name="shadow-type">none</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                    <child type="label_item">
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">51</property>
+                    <property name="y">48</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Tab1</property>
+                <property name="title" translatable="yes">Карточки</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFixed" id="Tab2">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="width-request">750</property>
+                    <property name="height-request">700</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="pixbuf">list_img\list.png</property>
+                  </object>
+                  <packing>
+                    <property name="x">30</property>
+                    <property name="y">24</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page1</property>
+                <property name="title" translatable="yes">Список</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="y">80</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStackSwitcher" id="st1">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="stack">stack1</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="back_btn">
+            <property name="label" translatable="yes">Обратно</property>
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">851</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
