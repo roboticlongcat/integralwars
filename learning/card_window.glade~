@@ -105,17 +105,16 @@
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <child>
-                  <object class="GtkScrollbar">
-                    <property name="width-request">20</property>
-                    <property name="height-request">750</property>
+                  <object class="GtkImage">
+                    <property name="width-request">750</property>
+                    <property name="height-request">700</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="orientation">vertical</property>
-                    <property name="adjustment">adjustment1</property>
+                    <property name="pixbuf">list_img\list.png</property>
                   </object>
                   <packing>
-                    <property name="x">800</property>
-                    <property name="y">10</property>
+                    <property name="x">30</property>
+                    <property name="y">24</property>
                   </packing>
                 </child>
               </object>

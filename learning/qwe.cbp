@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="any.cpp" />
 		<Unit filename="data_base/db_interals.cpp" />
 		<Unit filename="data_base/db_interals.h" />
 		<Unit filename="main.cpp" />
