@@ -33,7 +33,6 @@ namespace db {
     extern std::vector<base_line> Data_base_Diff;
 
     void fill(int size_table, std::vector<base_line>& q, bool type_id);
-    void cards(const std::string& integ, bool flag, std::vector<base_line>& q);
     void print(std::vector<base_line>& q);
     int find_card(std::vector<base_line>& q,std::string img_name);
 }

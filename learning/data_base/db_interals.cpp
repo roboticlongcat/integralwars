@@ -28,17 +28,6 @@ void fill(int size_table, std::vector<base_line>& q,bool type_id) {
     }
 }
 
-
-
-void cards(const std::string & integ, bool flag , std::vector<base_line>& q) {
-    auto it = std::find(q.begin(), q.end(), integ);
-    if (it != q.end())
-    {
-        it->change_state(flag);
-        std::cout << it->ans_card() << std::endl;
-    }
-}
-
 void print(std::vector<base_line>& q) {
     for (const auto& it : q) std::cout << it<<"   "<<it.st() << std::endl;
 }
