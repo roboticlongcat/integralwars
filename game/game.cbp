@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="1.png" />
+		<Unit filename="10.png" />
+		<Unit filename="10_dif.png" />
+		<Unit filename="11.png" />
+		<Unit filename="11_dif.png" />
+		<Unit filename="12.png" />
+		<Unit filename="12_dif.png" />
+		<Unit filename="13.png" />
+		<Unit filename="13_diff.png" />
+		<Unit filename="14.png" />
+		<Unit filename="14_dif.png" />
+		<Unit filename="15.png" />
+		<Unit filename="15_dif.png" />
+		<Unit filename="16.png" />
+		<Unit filename="17.png" />
+		<Unit filename="18.png" />
+		<Unit filename="19.png" />
+		<Unit filename="1_dif.png" />
+		<Unit filename="2.png" />
+		<Unit filename="20.png" />
+		<Unit filename="21.png" />
+		<Unit filename="22.png" />
+		<Unit filename="23.png" />
+		<Unit filename="24.png" />
+		<Unit filename="2_dif.png" />
+		<Unit filename="3.png" />
+		<Unit filename="3_dif.png" />
+		<Unit filename="4.png" />
+		<Unit filename="4_dif.png" />
+		<Unit filename="5.png" />
+		<Unit filename="5_dif.png" />
+		<Unit filename="6.png" />
+		<Unit filename="6_dif.png" />
+		<Unit filename="7.png" />
+		<Unit filename="7_dif.png" />
+		<Unit filename="8.png" />
+		<Unit filename="8_dif.png" />
+		<Unit filename="9.png" />
+		<Unit filename="9_dif.png" />
+		<Unit filename="ans1.png" />
+		<Unit filename="ans10.png" />
+		<Unit filename="ans10_dif.png" />
+		<Unit filename="ans11.png" />
+		<Unit filename="ans11_dif.png" />
+		<Unit filename="ans12.png" />
+		<Unit filename="ans12_dif.png" />
+		<Unit filename="ans13.png" />
+		<Unit filename="ans13_dif.png" />
+		<Unit filename="ans14.png" />
+		<Unit filename="ans14_dif.png" />
+		<Unit filename="ans15.png" />
+		<Unit filename="ans15_dif.png" />
+		<Unit filename="ans16.png" />
+		<Unit filename="ans17.png" />
+		<Unit filename="ans18.png" />
+		<Unit filename="ans19.png" />
+		<Unit filename="ans1_dif.png" />
+		<Unit filename="ans2.png" />
+		<Unit filename="ans20.png" />
+		<Unit filename="ans21.png" />
+		<Unit filename="ans22.png" />
+		<Unit filename="ans23.png" />
+		<Unit filename="ans24.png" />
+		<Unit filename="ans2_dif.png" />
+		<Unit filename="ans3.png" />
+		<Unit filename="ans3_dif.png" />
+		<Unit filename="ans4.png" />
+		<Unit filename="ans4_dif.png" />
+		<Unit filename="ans5.png" />
+		<Unit filename="ans5_dif.png" />
+		<Unit filename="ans6.png" />
+		<Unit filename="ans6_dif.png" />
+		<Unit filename="ans7.png" />
+		<Unit filename="ans7_dif.png" />
+		<Unit filename="ans8.png" />
+		<Unit filename="ans8_dif.png" />
+		<Unit filename="ans9.png" />
+		<Unit filename="ans9_dif.png" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
